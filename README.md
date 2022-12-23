@@ -7,20 +7,20 @@
     |
     |
     |--------> 1LinearRegression
-    |               |
-    |               |
-    |               |--------> _dataset
-    |               |--------> 1SimpleLinearRegression
-    |               |--------> 2OrdinaryLeastSquare
-    |               |--------> 3GradientDescent
-    |               |--------> 4Regularization
-    |               |--------> usingSKLearn
+    |                 |
+    |                 |
+    |                 |--------> _dataset
+    |                 |--------> 1SimpleLinearRegression
+    |                 |--------> 2OrdinaryLeastSquare
+    |                 |--------> 3GradientDescent
+    |                 |--------> 4Regularization
+    |                 |--------> usingSKLearn
     |
     |
     |--------> 2MultipleLinearRegression
-    |               |
-    |               |
-    |               |--------> Datasets
+    |                     |
+    |                     |
+    |                     |--------> Datasets
     |
     |
     |--------> 3LogisticRegression
@@ -36,7 +36,16 @@
     |
     |
     |--------> 6NaiveBayes
+    |               |
+    |               |
+    |               |--------> _dataset
+    |               |--------> 1MultinomialNB
+    |               |--------> 2GaussianNB
+    |               |--------> 3BernoulliNB
     |
     |
     |--------> 7SVM
+                |
+                |
+                |--------> _dataset
 ```
